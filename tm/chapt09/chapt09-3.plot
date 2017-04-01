@@ -1,0 +1,1 @@
+#set terminal png#set output "chapt09-3_fig1.png"set terminal postscript eps enhanced colorset samples 1000set zeroaxisV(x,a)= -1/x+0.5*(a/x)**2-(a/x)**2/x     set xrange [0:80]set yrange [-0.08:0.15]plot V(x,3.2) lw 2,V(x,4.0) lw 2, V(x,4.5) lw 2, V(x,5.0) lw 2pause -1
