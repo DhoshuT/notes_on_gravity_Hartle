@@ -95,21 +95,6 @@
     x<rsup|\<alpha\>>|d \<tau\>>
   </equation>
 
-  \<#307E\>\<#305F\>\<#3001\>\<#6E2C\>\<#5730\>\<#7DDA\>\<#306B\>\<#6CBF\>\<#3063\>\<#3066\>\<#3001\><math|\<b-u\>=<around*|(|u<rsup|\<alpha\>>|)>>
-  \<#306E\>\<#30CE\>\<#30EB\>\<#30E0\>\<#306F\>\<#4FDD\>\<#5B58\>\<#3059\>\<#308B\>\<#3002\>
-
-  <\eqnarray*>
-    <tformat|<table|<row|<cell|<frac|d|d \<tau\>>
-    <around*|(|u<rsub|\<alpha\>>*u<rsup|\<alpha\>>|)>>|<cell|=>|<cell|<frac|d|d
-    \<tau\>> <around*|(|g<rsub|\<alpha\>\<beta\>>*u<rsup|\<alpha\>>*u<rsup|\<beta\>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|d|d
-    \<tau\>> <around*|(|g<rsub|\<alpha\>\<beta\>>*u<rsup|\<beta\>>|)>*u<rsup|\<alpha\>>+<around*|(|g<rsub|\<alpha\>\<beta\>>*u<rsup|\<beta\>>|)>*<frac|d
-    u<rsup|\<alpha\>>|d \<tau\>>>>|<row|<cell|<around*|(|<reference|le1>|)>\<nearrow\>>|<cell|=>|<cell|<frac|1|2>*<around*|(|\<partial\><rsub|\<alpha\>>*g<rsub|\<beta\>\<gamma\>>|)>*u<rsup|\<beta\>>*u<rsup|\<gamma\>>*u<rsup|\<alpha\>>-<around*|(|g<rsub|\<alpha\>\<beta\>>*u<rsup|\<beta\>>|)>**<ccn|\<alpha\>|\<rho\>\<gamma\>|\<gamma\>>u<rsup|\<rho\>>*u<rsup|\<gamma\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<around*|(|\<partial\><rsub|\<alpha\>>*g<rsub|\<beta\>\<gamma\>>|)>*u<rsup|\<beta\>>*u<rsup|\<gamma\>>*u<rsup|\<alpha\>>-\<Gamma\><rsub|\<alpha\>\<beta\>\<gamma\>>*u<rsup|\<alpha\>>*u<rsup|\<beta\>>*u<rsup|\<gamma\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<around*|[|<around*|(|\<partial\><rsub|\<alpha\>>*g<rsub|\<beta\>\<gamma\>>|)>-<around*|(|\<partial\><rsub|\<beta\>>
-    g<rsub|\<alpha\>\<gamma\>>+\<partial\><rsub|\<gamma\>>
-    g<rsub|\<alpha\>\<beta\>>-\<partial\><rsub|\<alpha\>>
-    g<rsub|\<beta\>\<gamma\>>|)>|]>*u<rsup|\<alpha\>>*u<rsup|\<beta\>>*u<rsup|\<gamma\>>>>|<row|<cell|>|<cell|=>|<cell|<around*|[|<around*|(|\<partial\><rsub|\<alpha\>>*g<rsub|\<beta\>\<gamma\>>|)>-<around*|(|\<partial\><rsub|\<gamma\>>
-    g<rsub|\<beta\>\<alpha\>>|)>|]>*u<rsup|\<alpha\>>*u<rsup|\<beta\>>*u<rsup|\<gamma\>>>>|<row|<cell|>|<cell|=>|<cell|0>>>>
-  </eqnarray*>
-
   <subsubsection|<sikaku> \<#4F8B\>8.7>
 
   \<#4E8C\>\<#6B21\>\<#5143\>\<#30E6\>\<#30FC\>\<#30AF\>\<#30EA\>\<#30C3\>\<#30C9\>\<#5E73\>\<#9762\>\<#3067\>\<#FF08\>\<#6562\>\<#3048\>\<#3066\>\<#FF09\>\<#6975\>\<#5EA7\>\<#6A19\>\<#3092\>\<#53D6\>\<#3063\>\<#3066\>\<#6E2C\>\<#5730\>\<#7DDA\>\<#3092\>\<#8003\>\<#3048\>\<#308B\>\<#3002\>
@@ -176,11 +161,11 @@
 <\references>
   <\collection>
     <associate|auto-5|<tuple|5|1>>
-    <associate|auto-6|<tuple|6|1>>
+    <associate|auto-6|<tuple|6|2>>
     <associate|auto-7|<tuple|7|?>>
     <associate|ce1|<tuple|9|2>>
     <associate|ce2|<tuple|10|2>>
-    <associate|g2de|<tuple|8|1>>
+    <associate|g2de|<tuple|8|2>>
     <associate|g87|<tuple|6|?>>
     <associate|ge|<tuple|7|1>>
     <associate|ge0|<tuple|6|1>>
