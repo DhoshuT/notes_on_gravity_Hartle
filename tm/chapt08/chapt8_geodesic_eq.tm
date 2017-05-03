@@ -74,8 +74,7 @@
     <tformat|<table|<row|<cell|\<mathGamma\><rsub|\<alpha\>
     \<beta\>\<gamma\>>>|<cell|\<equiv\>>|<cell|<frac|1|2>*<around*|(|\<partial\><rsub|\<gamma\>>
     g<rsub|\<alpha\>\<beta\>>+\<partial\><rsub|\<beta\>>
-    g<rsub|\<alpha\>\<gamma\>>-\<partial\><rsub|\<alpha\>>*g<rsub|\<beta\>\<gamma\>>|)>>>|<row|<cell|<ccn|\<alpha\>|\<beta\>\<gamma\>|\<gamma\>>>|<cell|=>|<cell|g<rsup|\<alpha\>\<rho\>>*\<Gamma\><rsub|a
-    \<beta\>\<gamma\>><space|1spc>=<frac|1|2>*g<rsup|\<alpha\>\<rho\>>*<around*|(|\<partial\><rsub|\<gamma\>>
+    g<rsub|\<alpha\>\<gamma\>>-\<partial\><rsub|\<alpha\>>*g<rsub|\<beta\>\<gamma\>>|)>>>|<row|<cell|<ccn|\<alpha\>|\<beta\>\<gamma\>|\<gamma\>>>|<cell|=>|<cell|g<rsup|\<alpha\>\<rho\>>*\<Gamma\><rsub|\<rho\>\<beta\>\<gamma\>><space|1spc>=<frac|1|2>*g<rsup|\<alpha\>\<rho\>>*<around*|(|\<partial\><rsub|\<gamma\>>
     g<rsub|\<rho\>\<beta\>>+\<partial\><rsub|\<beta\>>
     g<rsub|\<rho\>\<gamma\>>-\<partial\><rsub|\<rho\>>*g<rsub|\<beta\>\<gamma\>>|)>>>>>
   </eqnarray*>
@@ -95,6 +94,21 @@
     \<tau\>>+*<ccn|\<alpha\>|\<beta\>\<gamma\>|\<gamma\>>u<rsup|\<beta\>>*u<rsup|\<gamma\>>=0,<space|1em>u<rsup|\<alpha\>>\<equiv\><frac|d
     x<rsup|\<alpha\>>|d \<tau\>>
   </equation>
+
+  \<#307E\>\<#305F\>\<#3001\>\<#6E2C\>\<#5730\>\<#7DDA\>\<#306B\>\<#6CBF\>\<#3063\>\<#3066\>\<#3001\><math|\<b-u\>=<around*|(|u<rsup|\<alpha\>>|)>>
+  \<#306E\>\<#30CE\>\<#30EB\>\<#30E0\>\<#306F\>\<#4FDD\>\<#5B58\>\<#3059\>\<#308B\>\<#3002\>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|d|d \<tau\>>
+    <around*|(|u<rsub|\<alpha\>>*u<rsup|\<alpha\>>|)>>|<cell|=>|<cell|<frac|d|d
+    \<tau\>> <around*|(|g<rsub|\<alpha\>\<beta\>>*u<rsup|\<alpha\>>*u<rsup|\<beta\>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|d|d
+    \<tau\>> <around*|(|g<rsub|\<alpha\>\<beta\>>*u<rsup|\<beta\>>|)>*u<rsup|\<alpha\>>+<around*|(|g<rsub|\<alpha\>\<beta\>>*u<rsup|\<beta\>>|)>*<frac|d
+    u<rsup|\<alpha\>>|d \<tau\>>>>|<row|<cell|<around*|(|<reference|le1>|)>\<nearrow\>>|<cell|=>|<cell|<frac|1|2>*<around*|(|\<partial\><rsub|\<alpha\>>*g<rsub|\<beta\>\<gamma\>>|)>*u<rsup|\<beta\>>*u<rsup|\<gamma\>>*u<rsup|\<alpha\>>-<around*|(|g<rsub|\<alpha\>\<beta\>>*u<rsup|\<beta\>>|)>**<ccn|\<alpha\>|\<rho\>\<gamma\>|\<gamma\>>u<rsup|\<rho\>>*u<rsup|\<gamma\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<around*|(|\<partial\><rsub|\<alpha\>>*g<rsub|\<beta\>\<gamma\>>|)>*u<rsup|\<beta\>>*u<rsup|\<gamma\>>*u<rsup|\<alpha\>>-\<Gamma\><rsub|\<alpha\>\<beta\>\<gamma\>>*u<rsup|\<alpha\>>*u<rsup|\<beta\>>*u<rsup|\<gamma\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>*<around*|[|<around*|(|\<partial\><rsub|\<alpha\>>*g<rsub|\<beta\>\<gamma\>>|)>-<around*|(|\<partial\><rsub|\<beta\>>
+    g<rsub|\<alpha\>\<gamma\>>+\<partial\><rsub|\<gamma\>>
+    g<rsub|\<alpha\>\<beta\>>-\<partial\><rsub|\<alpha\>>
+    g<rsub|\<beta\>\<gamma\>>|)>|]>*u<rsup|\<alpha\>>*u<rsup|\<beta\>>*u<rsup|\<gamma\>>>>|<row|<cell|>|<cell|=>|<cell|<around*|[|<around*|(|\<partial\><rsub|\<alpha\>>*g<rsub|\<beta\>\<gamma\>>|)>-<around*|(|\<partial\><rsub|\<gamma\>>
+    g<rsub|\<beta\>\<alpha\>>|)>|]>*u<rsup|\<alpha\>>*u<rsup|\<beta\>>*u<rsup|\<gamma\>>>>|<row|<cell|>|<cell|=>|<cell|0>>>>
+  </eqnarray*>
 
   <subsubsection|<sikaku> \<#4F8B\>8.7>
 
