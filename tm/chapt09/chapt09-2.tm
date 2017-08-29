@@ -59,7 +59,11 @@
   </equation*>
 
   Schwarzschild\<#5E7E\>\<#4F55\>\<#5B66\>\<#306E\>\<#5834\>\<#5408\>\<#3001\>\<#8A08\>\<#91CF\>\<#306F\>\<#6642\>\<#9593\>\<#5EA7\>\<#6A19\><math|
-  t >\<#306B\>\<#4F9D\>\<#5B58\>\<#3057\>\<#306A\>\<#3044\>\<#306E\>\<#3067\>\<#3001\>
+  t >\<#306B\>\<#4F9D\>\<#5B58\>\<#3057\>\<#306A\>\<#3044\>\<#306E\>\<#3067\>\<#3001\>\<#4E0A\>\<#8A18\>\<#3067\><math|\<mu\>>\<#3092\>\<#5EA7\>\<#6A19\>
+  <math|t>\<#6210\>\<#5206\>\<#3068\>\<#3059\>\<#308B\>\<#3068\><math|<mbox|\<#53F3\>\<#8FBA\>=0>>
+  \<#3002\>
+
+  \<#3057\>\<#305F\>\<#304C\>\<#3063\>\<#3066\>
 
   <\equation*>
     g<rsub|t t >*p<rsup|t>=-<around*|(|1-<frac|2*M|r>|)>*p<rsup|t>=const.\<equiv\>-p<rsup|t><rsub|\<infty\>>
@@ -83,12 +87,13 @@
   <wide|p|^><rsup|0>=-\<b-e\><rsub|0>\<cdot\>\<b-p\>>\<#FF09\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|h*\<omega\>>|<cell|=>|<cell|-\<b-e\><rsub|0>\<cdot\>\<b-p\>,<space|1em>\<b-e\><rsub|0
+    <tformat|<table|<row|<cell|\<hbar\>*\<omega\>>|<cell|=>|<cell|-\<b-e\><rsub|0>\<cdot\>\<b-p\>,<space|1em>\<b-e\><rsub|0
     >=<around*|(|e<rsub|0><rsup|\<mu\>>|)>=<around*|(|<around*|\||g<rsub|t
     t>|\|><rsup|-1/2>,0,0,0|)>>>|<row|<cell|>|<cell|=>|<cell|-g<rsub|t
     t>*<around*|\||g<rsub|t t>|\|><rsup|-1/2>*p<rsup|t>>>|<row|<cell|>|<cell|=>|<cell|*<around*|\||g<rsub|t
-    t>|\|><rsup|-1/2>*p<rsup|t><rsub|\<infty\>>>>|<row|<cell|\<therefore\><space|1em>\<omega\><rsub|\<infty\>>>|<cell|=>|<cell|*<around*|\||g<rsub|t
-    t>|\|><rsup|1/2>*\<omega\>=<around*|(|1-<frac|2*M|r>|)><rsup|1/2>*\<omega\>,<space|1em>p<rsup|t><rsub|\<infty\>>=h*\<omega\><rsub|\<infty\>>>>>>
+    t>|\|><rsup|-1/2>*p<rsup|t><rsub|\<infty\>>>>|<row|<cell|>|<cell|=>|<cell|*<around*|\||g<rsub|t
+    t>|\|><rsup|-1/2>*<around*|(|-\<b-e\><rsub|0>\<cdot\>\<b-p\>|)><rsub|\<infty\>>>>|<row|<cell|\<therefore\><space|1em>\<omega\><rsub|\<infty\>>>|<cell|=>|<cell|*<around*|\||g<rsub|t
+    t>|\|><rsup|1/2>*\<omega\>=<around*|(|1-<frac|2*M|r>|)><rsup|1/2>*\<omega\>,<space|1em><around*|(|-\<b-e\><rsub|0>\<cdot\>\<b-p\>|)><rsub|\<infty\>>=p<rsup|t><rsub|\<infty\>>=\<hbar\>*\<omega\><rsub|\<infty\>>>>>>
   </eqnarray*>
 
   \ \<#767A\>\<#5149\>\<#6E90\>\<#304C\>\<#8CEA\>\<#91CF\>\<#4E2D\>\<#5FC3\>\<#306E\>\<#8FD1\>\<#304F\>\<#FF08\>\<#534A\>\<#5F84\><math|
