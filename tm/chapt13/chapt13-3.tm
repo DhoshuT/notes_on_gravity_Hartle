@@ -16,12 +16,17 @@
   <set-this-page-header|<small|Chapt. 13>><subsubsection|<sikaku>
   Hawking\<#8F3B\>\<#5C04\>>
 
+  blackhole\<#304C\>Hawking\<#8F3B\>\<#5C04\>\<#306B\>\<#3088\>\<#3063\>\<#3066\>\<#8CEA\>\<#91CF\>\<#3092\>\<#5931\>\<#3046\>\<#6642\>\<#9593\>\<#7684\>\<#5272\>\<#5408\>\<#306F\>\<#6B21\>\<#5F0F\>\<#3068\>\<#306A\>\<#308B\><\footnote>
+    \ \<#30C6\>\<#30AD\>\<#30B9\>\<#30C8\>\<#3067\>\<#306F\>
+    (<reference|13-11>)\<#306E\>\<#5B9A\>\<#6570\>\<#306B\>\<#6587\>\<#5B57\><math|\<nu\>>\<#304C\>\<#4F7F\>\<#308F\>\<#308C\>\<#3066\>\<#3044\>\<#308B\>\<#304C\>\<#3001\><math|\<nu\>>\<#306F\>\<#632F\>\<#52D5\>\<#6570\>\<#3092\>\<#9023\>\<#60F3\>\<#3055\>\<#305B\>\<#308B\>\<#306E\>\<#3067\><math|\<alpha\>>\<#306B\>\<#5909\>\<#66F4\>\<#3057\>\<#305F\>\<#3002\>
+  </footnote>\<#3002\>\<#3053\>\<#306E\>\<#5F0F\>\<#306E\>\<#5C0E\>\<#51FA\>\<#306F\>\<#3053\>\<#3053\>\<#3067\>\<#306F\>\<#554F\>\<#308F\>\<#306A\>\<#3044\>\<#3053\>\<#3068\>\<#3068\>\<#3057\>\<#3001\>\<#8A8D\>\<#3081\>\<#308B\>\<#3053\>\<#3068\>\<#306B\>\<#3059\>\<#308B\>\<#3002\>
+
   <\eqnarray*>
     <tformat|<cwith|2|2|2|2|cell-tsep|2mm>|<cwith|2|2|2|2|cell-bsep|2mm>|<table|<row|<cell|<frac|d
-    M|d t>>|<cell|=>|<cell|-\<nu\>*<frac|\<hbar\>|M<rsup|2>><space|2em><mbox|<math|\<nu\>>
+    M|d t>>|<cell|=>|<cell|-\<alpha\>*<frac|\<hbar\>|M<rsup|2>><space|2em><mbox|<math|\<alpha\>>
     \<#306F\>\<#7121\>\<#6B21\>\<#5143\>\<#306E\>\<#5B9A\>\<#6570\>><eq-number><label|13-11>>>|<row|<cell|>|<cell|>|<cell|<small|<big|int><rsub|0><rsup|M>M<rsup|2>*d
-    M=<frac|1|3>*M<rsup|3><lrhsp|=>-\<nu\>*\<hbar\>*<big|int><rsub|t<rsup|*\<ast\>>><rsup|t>d
-    t=\<nu\>*\<hbar\>*<around*|(|t<rsup|\<ast\>>-t|)>>>>|<row|<cell|\<therefore\><space|1em>M<around*|(|t|)>>|<cell|=>|<cell|<around*|[|3*\<nu\>*\<hbar\>*<around*|(|t<rsup|\<ast\>>-t|)>|]><rsup|1/3><eq-number><label|13-16>>>>>
+    M=<frac|1|3>*M<rsup|3><lrhsp|=>-\<alpha\>*\<hbar\>*<big|int><rsub|t<rsup|*\<ast\>>><rsup|t>d
+    t=\<alpha\>*\<hbar\>*<around*|(|t<rsup|\<ast\>>-t|)>>>>|<row|<cell|\<therefore\><space|1em>M<around*|(|t|)>>|<cell|=>|<cell|<around*|[|3*\<alpha\>*\<hbar\>*<around*|(|t<rsup|\<ast\>>-t|)>|]><rsup|1/3><eq-number><label|13-16>>>>>
   </eqnarray*>
 
   blackhole\<#306E\>\<#6E29\>\<#5EA6\>\<#3068\>\<#8CEA\>\<#91CF\>\<#306E\>\<#95A2\>\<#4FC2\>\<#FF1A\>blackhole\<#304B\>\<#3089\>\<#306E\>\<#8F3B\>\<#5C04\>\<#306F\>\<#6B21\>\<#5F0F\>\<#3067\>\<#4E0E\>\<#3048\>\<#3089\>\<#308C\>\<#308B\>\<#6E29\>\<#5EA6\>\<#306E\>\<#9ED2\>\<#4F53\>\<#8F3B\>\<#5C04\>\<#3068\>\<#540C\>\<#3058\>
@@ -43,13 +48,13 @@
 
   <\equation*>
     I=<frac|-1|16*\<pi\>*M<rsup|2>>*<frac|d M|d
-    t>=<frac|\<nu\>*\<hbar\>|16*\<pi\>*M<rsup|4>>*<lrsp|<above|\<Longrightarrow\>|<around*|(|<reference|13-12>|)>>><frac|\<nu\>*\<hbar\>|16*\<pi\>*>*<around*|(|8*\<pi\><kelv>*T/\<hbar\>|)><rsup|4>=\<nu\>\<times\><frac|4\<cdot\>8<rsup|2>*\<pi\><rsup|3>|\<hbar\><rsup|3>>*<around*|(|<kelv>*T|)><rsup|4>
+    t>=<frac|\<alpha\>*\<hbar\>|16*\<pi\>*M<rsup|4>>*<lrsp|<above|\<Longrightarrow\>|<around*|(|<reference|13-12>|)>>><frac|\<alpha\>*\<hbar\>|16*\<pi\>*>*<around*|(|8*\<pi\><kelv>*T/\<hbar\>|)><rsup|4>=\<alpha\>\<times\><frac|4\<cdot\>8<rsup|2>*\<pi\><rsup|3>|\<hbar\><rsup|3>>*<around*|(|<kelv>*T|)><rsup|4>
   </equation*>
 
   \<#3053\>\<#308C\>\<#3092\>(<reference|S-B>)\<#3068\>\<#6BD4\>\<#8F03\>\<#3059\>\<#308B\>\<#3068\>\<#FF08\><math|c=1>\<#3068\>\<#3057\>\<#3066\>\<#3044\>\<#308B\>\<#306E\>\<#3067\>\<#FF09\>(<reference|13-11>)\<#306B\>\<#73FE\>\<#308C\>\<#308B\>\<#6BD4\>\<#4F8B\>\<#5B9A\>\<#6570\>\<#306E\>\<#5024\>\<#304C\>\<#4E00\>\<#5FDC\>\<#5F97\>\<#3089\>\<#308C\>\<#308B\>\<#3002\>
 
   <\equation*>
-    \<nu\>=<frac|\<hbar\><rsup|3>|4\<cdot\>8<rsup|2>*\<pi\><rsup|3>>*<frac|\<sigma\>|<kelv><rsup|4>>=<frac|\<hbar\><rsup|3>|4\<cdot\>8<rsup|2>*\<pi\><rsup|3>>*\<cdot\><frac|\<pi\><rsup|2>|60*\<hbar\><rsup|3>>=<frac|1|<times|240|64>*\<pi\>>
+    \<alpha\>=<frac|\<hbar\><rsup|3>|4\<cdot\>8<rsup|2>*\<pi\><rsup|3>>*<frac|\<sigma\>|<kelv><rsup|4>>=<frac|\<hbar\><rsup|3>|4\<cdot\>8<rsup|2>*\<pi\><rsup|3>>*\<cdot\><frac|\<pi\><rsup|2>|60*\<hbar\><rsup|3>>=<frac|1|<times|240|64>*\<pi\>>
   </equation*>
 
   \<#3053\>\<#306E\>\<#5024\>\<#81EA\>\<#8EAB\>\<#306F\>\<#3068\>\<#3082\>\<#304B\>\<#304F\>\<#3068\>\<#3057\>\<#3066\>\<#3001\>(<reference|13-11>),
@@ -89,17 +94,17 @@
     <math|<mbox|\<#9577\>\<#3055\>>/c\<rightarrow\><mbox|\<#6642\>\<#9593\>>>,
     \ \ <math|<around*|[|G/c<rsup|2>|]>=<around*|[|M<rsup|-1>*L|]>>,
     \ <math|G/c<rsup|2>\<times\><mbox|\<#8CEA\>\<#91CF\>>\<rightarrow\><mbox|\<#9577\>\<#3055\>>>,
-    \ \ <math|G/c<rsup|2>=7.42\<times\>10<rsup|-28> >m/kg, \ 
-
-    <math|<around*|[|\<hbar\>|]>=<around*|[|M*L<rsup|2>*T<rsup|-1>|]>\<nocomma\>,<space|1spc>\<hbar\>=1.05\<times\>10<rsup|-34>kgm<rsup|2>/s>
+    \ \ <math|G/c<rsup|2>=7.42\<times\>10<rsup|-28> >m/kg,
+    \ <math|<around*|[|\<hbar\>|]>=<around*|[|M*L<rsup|2>*T<rsup|-1>|]>\<nocomma\>,<space|1spc>\<hbar\>=1.05\<times\>10<rsup|-34>kgm<rsup|2>/s>
 
     \;
   </footnote>
 
   <\equation*>
-    \<tau\><rsub|Hawk>=<frac|M<rsup|3>|3*\<nu\>*\<hbar\>><lrsp|\<Rightarrow\>G,c
-    <mbox|\<#5FA9\>\<#6D3B\>> \<Rightarrow\>><frac|M|3*\<nu\>*\<hbar\>>*<around*|(|<frac|G*M|c<rsup|2>>|)><rsup|2>
-    =<frac|1.75\<times\>10<rsup|-21>|\<nu\>>\<times\><around*|(|<frac|M|1kg>|)><rsup|3>
+    \<tau\><rsub|Hawk>=<frac|M<rsup|3>|3*\<alpha\>*\<hbar\>><lrsp|\<Rightarrow\>G,c
+    <mbox|\<#5FA9\>\<#6D3B\>> \<Rightarrow\>><frac|M|3*\<alpha\>*\<hbar\>>*<around*|(|<frac|G*M|c<rsup|2>>|)><rsup|2>
+    =<frac|1.75\<times\>10<rsup|-21>|\<alpha\>>\<times\><around*|(|<frac|M|1kg>|)><rsup|3>
+    <mbox|\<#79D2\>><space|1spc> =8.4\<times\>10<rsup|-17>\<times\><around*|(|<frac|M|1kg>|)><rsup|3>
     <mbox|\<#79D2\>>
   </equation*>
 
@@ -130,8 +135,10 @@
     <associate|auto-5|<tuple|5|1>>
     <associate|footnote-1|<tuple|1|1>>
     <associate|footnote-2|<tuple|2|1>>
+    <associate|footnote-3|<tuple|3|1>>
     <associate|footnr-1|<tuple|1|1>>
     <associate|footnr-2|<tuple|2|1>>
+    <associate|footnr-3|<tuple|3|1>>
     <associate|rl1|<tuple|5|1>>
   </collection>
 </references>
