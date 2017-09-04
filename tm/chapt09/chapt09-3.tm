@@ -17,21 +17,47 @@
     <assign|Msun-len|<mass2len|<value|Msun>>>
   </hide-preamble>
 
-  <subsubsection|<sikaku> 9.3 p.179<math|\<sim\>>\<#FF1A\>\<#675F\>\<#7E1B\>\<#8ECC\>\<#9053\>>
+  <subsubsection|<sikaku> 9.3 p.179<math|\<sim\>>\<#FF1A\>\<#30C6\>\<#30B9\>\<#30C8\>\<#7C92\>\<#5B50\>\<#306E\>\<#675F\>\<#7E1B\>\<#8ECC\>\<#9053\>>
 
+  \<#30C6\>\<#30B9\>\<#30C8\>\<#7C92\>\<#5B50\>\<#306E\>\<#904B\>\<#52D5\>\<#306B\>\<#5BFE\>\<#3057\>\<#3001\>\<#8A08\>\<#91CF\>\<#304C\>
+  <math|t>\<#4F9D\>\<#5B58\>\<#6027\>\<#304A\>\<#3088\>\<#3073\><math|\<phi\>>\<#4F9D\>\<#5B58\>\<#6027\>\<#3092\>\<#6301\>\<#305F\>\<#306A\>\<#3044\>\<#3053\>\<#3068\>\<#304B\>\<#3089\>\<#6B21\>\<#5F0F\>\<#3067\>\<#5B9A\>\<#7FA9\>\<#3059\>\<#308B\>
   <math|e\<nocomma\>,<space|1spc>\<ell\>>
-  \<#3092\>\<#4FDD\>\<#5B58\>\<#91CF\>\<#3068\>\<#3057\>\<#3066\>
+  \<#304C\>\<#4FDD\>\<#5B58\>\<#91CF\>\<#3068\>\<#306A\>\<#308A\>\<#3001\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|e>|<cell|=>|<cell|<around*|(|1-<frac|2*M|r>|)>*<frac|d
-    t|d \<tau\>><eq-number>>>|<row|<cell|\<ell\>>|<cell|=>|<cell|r<rsup|2>*sin<rsup|2>\<theta\>*<frac|d
+    <tformat|<table|<row|<cell|e=-g<rsub|t t>*<frac|d t|d
+    \<tau\>>>|<cell|=>|<cell|<around*|(|1-<frac|2*M|r>|)>*<frac|d t|d
+    \<tau\>><eq-number><label|a-energy>>>|<row|<cell|\<ell\>=g<rsub|\<phi\>
+    \<phi\>>*<frac|d \<phi\>|d \<tau\>>>|<cell|=>|<cell|r<rsup|2>*sin<rsup|2>\<theta\>*<frac|d
     \<phi\>|d \<tau\>><space|1em>\<Rightarrow\><space|1em>\<ell\>=r<rsup|2>*<frac|d
-    \<phi\>|d \<tau\>>,<hquad>\<theta\>=\<pi\>/2<eq-number><label|a-moment>>>|<row|<cell|<frac|e<rsup|2>-1|2>>|<cell|=>|<cell|<frac|1|2>*<around*|(|<frac|d
-    r|d \<tau\>>|)><rsup|2>+<frac|1|2><around*|[|<around*|(|1-<frac|2*M|r>|)>*<around*|(|1+<frac|\<ell\><rsup|2>|r<rsup|2>>|)>-1|]><eq-number><label|e-cond>>>>>
+    \<phi\>|d \<tau\>>,<hquad>\<theta\>=\<pi\>/2<eq-number><label|a-moment>>>>>
   </eqnarray*>
 
+  \<#305D\>\<#308C\>\<#305E\>\<#308C\>\<#FF08\>\<#30C6\>\<#30B9\>\<#30C8\>\<#7C92\>\<#5B50\>\<#306E\>\<#FF09\>\<#5358\>\<#4F4D\>\<#9759\>\<#6B62\>\<#8CEA\>\<#91CF\>\<#5F53\>\<#305F\>\<#308A\>\<#306E\>\<#30A8\>\<#30CD\>\<#30EB\>\<#30AE\>\<#30FC\>\<#3001\>\<#5358\>\<#4F4D\>\<#9759\>\<#6B62\>\<#8CEA\>\<#91CF\>\<#5F53\>\<#305F\>\<#308A\>\<#306E\>\<#89D2\>\<#904B\>\<#52D5\>\<#91CF\>\<#3068\>\<#7406\>\<#89E3\>\<#3055\>\<#308C\>\<#308B\>\<#3002\>
+
+  \<#6642\>\<#7A7A\>\<#306E\>\<#7403\>\<#5BFE\>\<#79F0\>\<#6027\>\<#304B\>\<#3089\>\<#30C6\>\<#30B9\>\<#30C8\>\<#7C92\>\<#5B50\>\<#306F\>\<#8CEA\>\<#91CF\>\<#4E2D\>\<#5FC3\>\<#3092\>\<#901A\>\<#308B\>\<#300C\>\<#9762\>\<#300D\>\<#5185\>\<#3092\>\<#904B\>\<#52D5\>\<#3059\>\<#308B\>\<#3002\>
+
+  \<#5B9F\>\<#969B\>\<#3001\>(<reference|a-moment>)\<#3088\>\<#308A\>\<#3001\>\<#30C6\>\<#30B9\>\<#30C8\>\<#7C92\>\<#5B50\>\<#306E\>\<#904B\>\<#52D5\>\<#306E\>\<#521D\>\<#671F\>\<#5024\>\<#304C\>
+  <math|\<phi\>=0\<nocomma\>,<space|1spc>d \<phi\>/d \<tau\>=0>
+  \<#3067\>\<#3042\>\<#308B\>\<#3088\>\<#3046\>\<#306B\><math|\<phi\>>\<#5EA7\>\<#6A19\>\<#3092\>\<#53D6\>\<#308C\>\<#3070\>\<#30C6\>\<#30B9\>\<#30C8\>\<#7C92\>\<#5B50\>\<#306F\><math|\<phi\>=0>\<#306E\>\<#9762\>\<#5185\>\<#306B\>\<#7559\>\<#307E\>\<#308B\>\<#3002\>\<#6539\>\<#3081\>\<#3066\>\<#3053\>\<#306E\>\<#9762\>\<#3092\>\<#8D64\>\<#9053\>\<#9762\>
+  <math|\<theta\>=\<pi\>/2> \<#306B\>\<#3068\>\<#308B\>\<#3068\>\<#90FD\>\<#5408\>\<#304C\>\<#3088\>\<#3044\>\<#3002\>
+
+  <\equation*>
+    \<b-u\>\<cdot\>\<b-u\>=-1,<space|1em>\<b-u\>=<around*|(|d
+    x<rsup|\<mu\>>/d \<tau\>|)>
+  </equation*>
+
+  \<#306B\>(<reference|a-energy>),(<reference|a-moment>)\<#304A\>\<#3088\>\<#3073\>
+  <math|u<rsup|\<theta\>>=d \<theta\>/d \<tau\>=0>
+  \<#3092\>\<#4EE3\>\<#5165\>\<#3057\>\<#3066\>\<#6574\>\<#7406\>\<#3059\>\<#308B\>\<#3068\>\<#52D5\>\<#5F84\>\<#65B9\>\<#5411\>\<#306E\>\<#904B\>\<#52D5\>\<#3092\>\<#8A18\>\<#8FF0\>\<#3059\>\<#308B\>\<#6B21\>\<#306E\>\<#65B9\>\<#7A0B\>\<#5F0F\>\<#3092\>\<#5F97\>\<#308B\>\<#3002\>
+
+  <\equation>
+    <label|e-cond><frac|e<rsup|2>-1|2>=<frac|1|2>*<around*|(|<frac|d r|d
+    \<tau\>>|)><rsup|2>+<frac|1|2><around*|[|<around*|(|1-<frac|2*M|r>|)>*<around*|(|1+<frac|\<ell\><rsup|2>|r<rsup|2>>|)>-1|]>
+  </equation>
+
   \<#5358\>\<#4F4D\>\<#8CEA\>\<#91CF\>\<#5F53\>\<#305F\>\<#308A\>\<#306E\>\<#30A8\>\<#30CD\>\<#30EB\>\<#30AE\>\<#30FC\>
-  <math|e> \<#306F\>\<#9759\>\<#6B62\>\<#30A8\>\<#30CD\>\<#30EB\>\<#30AE\>\<#30FC\>\<#306E\>\<#5BC4\>\<#4E0E\>\<#3092\>\<#542B\>\<#3080\>\<#306E\>\<#3067\>Newton\<#529B\>\<#5B66\>\<#306E\>\<#30A8\>\<#30CD\>\<#30EB\>\<#30AE\>\<#30FC\><math|\<cal-E\>>\<#3068\>\<#6BD4\>\<#8F03\>\<#3059\>\<#308B\>\<#305F\>\<#3081\>\<#306B\>\<#306F\>
+  <math|e> \<#306F\>\<#9759\>\<#6B62\>\<#30A8\>\<#30CD\>\<#30EB\>\<#30AE\>\<#30FC\>\<#306E\>\<#5BC4\>\<#4E0E\>\<#3092\>\<#542B\>\<#3080\>\<#306E\>\<#3067\>\<#3001\>Newton\<#529B\>\<#5B66\>\<#306E\>\<#30A8\>\<#30CD\>\<#30EB\>\<#30AE\>\<#30FC\><math|\<cal-E\>>\<#3068\>\<#6BD4\>\<#8F03\>\<#3059\>\<#308B\>\<#305F\>\<#3081\>\<#306B\>\<#306F\>
 
   <\equation*>
     e=1+\<cal-E\>,<space|1em><frac|e<rsup|2>-1|2>=<frac|<around*|(|1+\<cal-E\>|)><rsup|2>-1|2>\<approx\>\<cal-E\>,<hquad>\<cal-E\>\<ll\>1
@@ -71,6 +97,14 @@
     0>|<cell|,>|<cell|<mbox|for><hquad>\<ell\><rsup|2>\<less\>12>>>>>|\<nobracket\>><eq-number><label|dveff>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|V<rprime|'><rsub|eff><around*|(|r<rsub|\<pm\>>|)>=0<space|1em>>|<cell|\<Rightarrow\>>|<cell|<hquad>r<rsub|\<pm\>>=<frac|1|2>*\<ell\><rsup|2><around*|(|1\<pm\>*<sqrt|1-12*/\<ell\><rsup|2>>|)>,<space|1em>V<rprime|''><rsub|eff><around*|(|r<rsub|\<pm\>>|)>\<gtrless\>0<eq-number>>>>>
   </eqnarray*>
 
+  <math|V<rsub|eff><around*|(|r|)>> \<#306F\><math| r=r<rsub|->>
+  \<#3067\>\<#6975\>\<#5927\>\<#3001\><math| r=r<rsub|+>>
+  \<#3067\>\<#6975\>\<#5C0F\>\<#3068\>\<#306A\>\<#308B\>\<#3002\><math|\<ell\>>\<#3092\>\<#5909\>\<#5316\>\<#3055\>\<#305B\>\<#308B\>\<#3068\>
+
+  <\equation>
+    <label|rrng>3*\<less\>r<rsub|->\<leq\>6*\<leq\>r<rsub|+>,<space|1em>\<ell\>\<geq\><sqrt|12>
+  </equation>
+
   <\parag-box>
     <\small>
       <gt|[memo]>
@@ -88,14 +122,6 @@
       \;
     </small>
   </parag-box>
-
-  <math|V<rsub|eff><around*|(|r|)>> \<#306F\><math| r=r<rsub|->>
-  \<#3067\>\<#6975\>\<#5927\>\<#3001\><math| r=r<rsub|+>>
-  \<#3067\>\<#6975\>\<#5C0F\>\<#3068\>\<#306A\>\<#308B\>\<#3002\><math|\<ell\>>\<#3092\>\<#5909\>\<#5316\>\<#3055\>\<#305B\>\<#308B\>\<#3068\>
-
-  <\equation>
-    <label|rrng>3*\<less\>r<rsub|->\<leq\>6*\<leq\>r<rsub|+>,<space|1em>\<ell\>\<geq\><sqrt|12>
-  </equation>
 
   \;
 
@@ -387,6 +413,7 @@
 
 <\references>
   <\collection>
+    <associate|a-energy|<tuple|1|?>>
     <associate|a-moment|<tuple|2|1>>
     <associate|am-cond|<tuple|8|2>>
     <associate|auto-5|<tuple|5|1>>

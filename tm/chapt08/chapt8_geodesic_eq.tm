@@ -161,11 +161,11 @@
 <\references>
   <\collection>
     <associate|auto-5|<tuple|5|1>>
-    <associate|auto-6|<tuple|6|2>>
+    <associate|auto-6|<tuple|6|1>>
     <associate|auto-7|<tuple|7|?>>
     <associate|ce1|<tuple|9|2>>
     <associate|ce2|<tuple|10|2>>
-    <associate|g2de|<tuple|8|2>>
+    <associate|g2de|<tuple|8|1>>
     <associate|g87|<tuple|6|?>>
     <associate|ge|<tuple|7|1>>
     <associate|ge0|<tuple|6|1>>
