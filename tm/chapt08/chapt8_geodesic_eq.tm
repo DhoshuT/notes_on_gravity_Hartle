@@ -156,7 +156,7 @@
   <\equation>
     <label|killing-eq>g<rsub|\<mu\> \<nu\>>*<c-der|\<rho\>>
     \<xi\><rsup|\<mu\>>+g<rsub|\<mu\> \<rho\>>*<c-der|\<nu\>>
-    \<xi\><rsup|\<mu\>>=0<lrsp|\<Leftrightarrow\>><frac|d|d \<tau\>>
+    \<xi\><rsup|\<mu\>>=0<lrsp|\<Longrightarrow\>><frac|d|d \<tau\>>
     <around*|(|\<b-xi\>\<cdot\>\<b-u\>|)>=0
   </equation>
 
@@ -257,8 +257,8 @@
     <associate|g87|<tuple|6|?>>
     <associate|ge|<tuple|7|1>>
     <associate|ge0|<tuple|6|1>>
-    <associate|killing-aux|<tuple|9|?>>
-    <associate|killing-eq|<tuple|8|?>>
+    <associate|killing-aux|<tuple|9|2>>
+    <associate|killing-eq|<tuple|8|2>>
     <associate|le0|<tuple|3|1>>
     <associate|le1|<tuple|4|1>>
     <associate|v-killing|<tuple|8|2>>
