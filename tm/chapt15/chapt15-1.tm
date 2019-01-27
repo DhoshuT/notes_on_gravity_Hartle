@@ -246,8 +246,8 @@
 
   <\equation>
     <tabular|<tformat|<table|<row|<cell|t<around*|(|\<b-x\>|)>>|<cell|\<rightarrow\>>|<cell|t<around*|(|\<b-x\>+\<varepsilon\>*\<b-ell\>|)>>|<cell|=>|<cell|t<around*|(|v+\<epsilon\>*\<ell\><rsup|v>,r|)>=t<around*|(|\<b-x\>|)>+\<varepsilon\>*\<ell\><rsup|v>*<around*|(|\<partial\><rsub|v>
-    t|)>>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|=>|<cell|t<around*|(|\<b-x\>|)>+\<varepsilon\>*\<ell\><rsup|v>>|<cell|>>|<row|<cell|\<phi\><around*|(|\<b-x\>|)>>|<cell|\<rightarrow\>>|<cell|\<phi\><around*|(|\<b-x\>+\<varepsilon\>*\<b-ell\>|)>>|<cell|=>|<cell|\<phi\><around*|(|r,\<psi\>+\<epsilon\>*\<ell\><rsup|\<psi\>>|)>=\<phi\><around*|(|\<b-x\>|)>+\<varepsilon\>*\<ell\><rsup|\<psi\>>*<around*|(|\<partial\><rsub|\<psi\>>
-    \<phi\>|)>>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|=>|<cell|\<phi\><around*|(|\<b-x\>|)>+\<varepsilon\>*\<ell\><rsup|\<psi\>>>|<cell|>>>>>,<space|1em><frac|d
+    t|)>>>|<row|<cell|>|<cell|>|<cell|>|<cell|=>|<cell|t<around*|(|\<b-x\>|)>+\<varepsilon\>*\<ell\><rsup|v>>>|<row|<cell|\<phi\><around*|(|\<b-x\>|)>>|<cell|\<rightarrow\>>|<cell|\<phi\><around*|(|\<b-x\>+\<varepsilon\>*\<b-ell\>|)>>|<cell|=>|<cell|\<phi\><around*|(|r,\<psi\>+\<epsilon\>*\<ell\><rsup|\<psi\>>|)>=\<phi\><around*|(|\<b-x\>|)>+\<varepsilon\>*\<ell\><rsup|\<psi\>>*<around*|(|\<partial\><rsub|\<psi\>>
+    \<phi\>|)>>>|<row|<cell|>|<cell|>|<cell|>|<cell|=>|<cell|\<phi\><around*|(|\<b-x\>|)>+\<varepsilon\>*\<ell\><rsup|\<psi\>>>>>>>,<lrsp|\<therefore\>><frac|d
     \<phi\>|d t>=<frac|\<ell\><rsup|\<psi\>>|\<ell\><rsup|v>>=<frac|a|2*r>
   </equation>
 
