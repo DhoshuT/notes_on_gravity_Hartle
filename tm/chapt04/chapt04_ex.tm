@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.2>
+<TeXmacs|1.0.7.19>
 
 <style|<tuple|generic|my-utils|my-math>>
 
@@ -10,20 +10,20 @@
   <\parag-box>
     <\equation*>
       \<beta\>=V/c, <space|0.6spc>1/\<gamma\>
-      =1-\<beta\><rsup|2>,<space|1em><left|{><space|0.6spc><tabular|<tformat|<table|<row|<cell|x<rprime|'>>|<cell|=>|<cell|\<gamma\>*(x-\<beta\>*c*t)>>|<row|<cell|c*t<rprime|'>>|<cell|=>|<cell|\<gamma\>*(c*t-\<beta\>*x)>>>>><space|1em><left|{><space|0.6spc><tabular|<tformat|<table|<row|<cell|x>|<cell|=>|<cell|\<gamma\>*(x<rprime|'>+\<beta\>*c*t<rprime|'>)>>|<row|<cell|c*t>|<cell|=>|<cell|\<gamma\>*(c*t<rprime|'>+\<beta\>*x<rprime|'>)>>>>>
+      =1-\<beta\><rsup|2>,<space|1em><around*|{|<space|0.6spc><tabular|<tformat|<table|<row|<cell|x<rprime|'>>|<cell|=>|<cell|\<gamma\>*<around|(|x-\<beta\>*c*t|)>>>|<row|<cell|c*t<rprime|'>>|<cell|=>|<cell|\<gamma\>*<around|(|c*t-\<beta\>*x|)>>>>>><space|1em><around*|{|<space|0.6spc><tabular|<tformat|<table|<row|<cell|x>|<cell|=>|<cell|\<gamma\>*<around|(|x<rprime|'>+\<beta\>*c*t<rprime|'>|)>>>|<row|<cell|c*t>|<cell|=>|<cell|\<gamma\>*<around|(|c*t<rprime|'>+\<beta\>*x<rprime|'>|)>>>>>>|\<nobracket\>>|\<nobracket\>>
     </equation*>
 
     <\equation*>
-      \<gamma\><rsup|2>*(1-\<beta\><rsup|2>)=1,
-      <space|0.6spc>\<Longrightarrow\><space|0.6spc><left|{><space|0.6spc><tabular|<tformat|<table|<row|<cell|\<gamma\>>|<cell|=>|<cell|cosh
+      \<gamma\><rsup|2>*<around|(|1-\<beta\><rsup|2>|)>=1,
+      <space|0.6spc>\<Longrightarrow\><space|0.6spc><around*|{|<space|0.6spc><tabular|<tformat|<table|<row|<cell|\<gamma\>>|<cell|=>|<cell|cosh
       \<theta\>>>|<row|<cell|\<gamma\>*\<beta\>>|<cell|=>|<cell|sinh
-      \<theta\>>>>>> ,<space|1em>\<beta\>=tanh \<theta\>
+      \<theta\>>>>>> ,<space|1em>\<beta\>=tanh \<theta\>|\<nobracket\>>
     </equation*>
 
     <\equation*>
-      <left|{><space|0.6spc><tabular|<tformat|<table|<row|<cell|x<rprime|'>>|<cell|=>|<cell|\<gamma\>*(x-\<beta\>*c*t)>>|<row|<cell|c*t<rprime|'>>|<cell|=>|<cell|\<gamma\>*(c*t-\<beta\>*x)>>>>><space|1em>\<Longleftrightarrow\><space|1em><left|{><space|0.6spc><tabular|<tformat|<cwith|1|2|3|3|cell-halign|r>|<table|<row|<cell|x<rprime|'>>|<cell|=>|<cell|x*cosh
+      <around*|{|<space|0.6spc><tabular|<tformat|<table|<row|<cell|x<rprime|'>>|<cell|=>|<cell|\<gamma\>*<around|(|x-\<beta\>*c*t|)>>>|<row|<cell|c*t<rprime|'>>|<cell|=>|<cell|\<gamma\>*<around|(|c*t-\<beta\>*x|)>>>>>><space|1em>\<Longleftrightarrow\><space|1em><around*|{|<space|0.6spc><tabular|<tformat|<cwith|1|2|3|3|cell-halign|r>|<table|<row|<cell|x<rprime|'>>|<cell|=>|<cell|x*cosh
       \<theta\>-*c*t*sinh \<theta\>>>|<row|<cell|c*t<rprime|'>>|<cell|=>|<cell|*-x*sinh
-      \<theta\>+c*t*cosh \<theta\>>>>>>
+      \<theta\>+c*t*cosh \<theta\>>>>>>|\<nobracket\>>|\<nobracket\>>
     </equation*>
   </parag-box>
 
@@ -32,14 +32,14 @@
   \<#5EA7\>\<#6A19\>\<#539F\>\<#70B9\>\<#304B\>\<#3089\>\<#767A\>\<#4FE1\>\<#3055\>\<#308C\>\<#305F\>\<#5149\>\<#4FE1\>\<#53F7\>\<#304C\>\<#30ED\>\<#30B1\>\<#30C3\>\<#30C8\>\<#306E\>\<#5148\>\<#7AEF\>\<#306B\>\<#5C4A\>\<#3044\>\<#305F\>\<#4E8B\>\<#8C61\>\<#304C\>\<#56F3\>\<#306E\>\<#70B9\><math|P>\<#3067\>\<#3042\>\<#308B\>\<#3002\>
 
   <\with|par-mode|center>
-    <tabular|<tformat|<cwith|1|1|2|2|cell-valign|c>|<table|<row|<cell|<postscript|ex4-2.png|*1/5|*1/5||||>>|<cell|<with|mode|math|P:<space|1em>
-    <mbox|\<#5730\>\<#4E0A\>\<#FF1A\>> (L<rsub|\<ast\>>,t)
-    \<longleftrightarrow\> <mbox|\<#30ED\>\<#30B1\>\<#30C3\>\<#30C8\>\<#FF1A\>>(L,
-    t<rprime|'>=L/c)>>>>>>
+    <tabular|<tformat|<cwith|1|1|2|2|cell-valign|c>|<table|<row|<cell|<image|ex4-2.png|0.2w|0.2h||>>|<cell|<math|P:<space|1em>
+    <mbox|\<#5730\>\<#4E0A\>\<#FF1A\>> <around|(|L<rsub|\<ast\>>,t|)>
+    \<longleftrightarrow\> <mbox|\<#30ED\>\<#30B1\>\<#30C3\>\<#30C8\>\<#FF1A\>><around|(|L,
+    t<rprime|'>=L/c|)>>>>>>>
   </with>
 
   \<#30ED\>\<#30FC\>\<#30EC\>\<#30F3\>\<#30C4\>\<#5909\>\<#63DB\>\<#304B\>\<#3089\>
-  <math|c*t=\<gamma\>(c*t<rprime|'>+\<beta\>*L)=\<gamma\>(1+\<beta\>)L.>\ 
+  <math|c*t=\<gamma\><around|(|c*t<rprime|'>+\<beta\>*L|)>=\<gamma\><around|(|1+\<beta\>|)>L>.\ 
 
   \<#30ED\>\<#30B1\>\<#30C3\>\<#30C8\>\<#306E\>\<#901F\>\<#5EA6\>\<#304C\><math|V=4*c/5>
   \<#306E\>\<#3068\>\<#304D\> <math|\<beta\>=4/5
@@ -53,9 +53,9 @@
   (\<#9759\>\<#6B62\>\<#7CFB\>\<#3067\>\<#306E\>\<#9577\>\<#3055\><math|L<rsub|\<ast\>>>\<#306E\>)\<#7269\>\<#4F53\>\<#304C\>\<#3001\>\<#901F\>\<#5EA6\><math|V>\<#3067\>\<#7B49\>\<#901F\>\<#904B\>\<#52D5\>\<#3059\>\<#308B\>\<#3068\>\<#304D\>\<#306B\>\<#306F\>\<#9577\>\<#3055\><math|L<rsub|>>\<#306B\>\<#898B\>\<#3048\>\<#308B\>\<#3002\>
 
   <\equation*>
-    <tabular|<tformat|<table|<row|<cell|(t,V*t+L)>|<cell|\<longleftrightarrow\>>|<cell|(t<rsub|2><rprime|'>,L<rsub|\<ast\>>)>>|<row|<cell|(t,
-    V*t)>|<cell|\<longleftrightarrow\>>|<cell|(t<rsub|1><rprime|'>, 0)>>>>>
-    ,<space|1em>L<rsub|\<ast\>>=\<gamma\>L
+    <tabular|<tformat|<table|<row|<cell|<around|(|t,V*t+L|)>>|<cell|\<longleftrightarrow\>>|<cell|<around|(|t<rsub|2><rprime|'>,L<rsub|\<ast\>>|)>>>|<row|<cell|<around|(|t,
+    V*t|)>>|<cell|\<longleftrightarrow\>>|<cell|<around|(|t<rsub|1><rprime|'>,
+    0|)>>>>>> ,<space|1em>L<rsub|\<ast\>>=\<gamma\>L
   </equation*>
 
   \<#9759\>\<#6B62\>\<#7CFB\>\<#3067\>20m\<#306E\>\<#68D2\>\<#306E\>\<#9577\>\<#3055\>\<#304C\>\<#5B9F\>\<#9A13\>\<#5BA4\>\<#7CFB\>\<#3067\>\<#306F\>10m\<#306B\>\<#306A\>\<#3063\>\<#305F\>\<#3068\>\<#3044\>\<#3046\>\<#4E8B\>\<#304B\>\<#3089\>
@@ -68,7 +68,7 @@
   \<#8D70\>\<#8005\>\<#306E\>\<#8996\>\<#70B9\>\<#3068\>\<#3001\>\<#5B9F\>\<#9A13\>\<#5BA4\>\<#3067\>\<#306F\>\<#540C\>\<#6642\>\<#523B\>\<#306B\>\<#898B\>\<#3066\>\<#3044\>\<#308B\>\<#68D2\>\<#306E\>\<#5B9F\>\<#4F53\>\<#304C\>\<#7570\>\<#306A\>\<#308B\>\<#306E\>\<#3067\>\<#30D1\>\<#30E9\>\<#30C9\>\<#30C3\>\<#30AF\>\<#30B9\>\<#3067\>\<#306F\>\<#306A\>\<#3044\>\<#3002\>\<#6642\>\<#7A7A\>\<#56F3\>\<#306F\>\<#6B21\>\<#306E\>\<#901A\>\<#308A\>\<#3002\>\<#56F3\>\<#3067\>\<#306F\>\<#5404\>\<#8996\>\<#70B9\>\<#3067\>\<#540C\>\<#6642\>\<#523B\>\<#306B\>\<#898B\>\<#3066\>\<#3044\>\<#308B\>\<#68D2\>\<#3092\>\<#793A\>\<#3057\>\<#305F\>\<#3002\>
 
   <\with|par-mode|center>
-    <tabular|<tformat|<cwith|1|1|3|3|cell-hyphen|t>|<cwith|1|1|3|3|cell-valign|c>|<table|<row|<cell|<postscript|ex4-3.png|*1/5|*1/5||||>>|<cell|<space|1em>>|<\cell>
+    <tabular|<tformat|<cwith|1|1|3|3|cell-hyphen|t>|<cwith|1|1|3|3|cell-valign|c>|<table|<row|<cell|<image|ex4-3.png|0.2w|0.2h||>>|<cell|<space|1em>>|<\cell>
       <math|P<rsub|0>>\<#FF1A\>\<#68D2\>\<#306E\>\<#5148\>\<#7AEF\>\<#304C\>\<#5C0F\>\<#5C4B\>\<#306E\>\<#8868\>\<#306E\>\<#30C9\>\<#30A2\>\<#306B\>\<#9054\>\<#3057\>\<#305F\>\<#3002\>
 
       <math|P<rsub|1>>\<#FF1A\>\<#68D2\>\<#306E\>\<#5148\>\<#7AEF\>\<#304C\>\<#5C0F\>\<#5C4B\>\<#306E\>\<#88CF\>\<#306E\>\<#30C9\>\<#30A2\>\<#306B\>\<#9054\>\<#3057\>\<#305F\>\<#3002\>
@@ -143,12 +143,12 @@
 
   <\equation*>
     1-\<beta\>\<ll\>\<theta\>\<approx\>0<space|1em>\<Longrightarrow\><space|1em><frac|V<rsub|T>|c>=<frac|\<beta\>*sin*\<theta\>|1-\<beta\>*cos
-    \<theta\>> <space|0.6spc>\<approx\><space|0.6spc><frac|\<beta\>*\<theta\>|1-\<beta\>+\<beta\>*\<theta\><rsup|2>/2><space|0.6spc>=<frac|\<theta\>|\<theta\><rsup|2>/2-(1-1/\<beta\>)>\<approx\><space|0.6spc><frac|2|\<theta\>>
+    \<theta\>> <space|0.6spc>\<approx\><space|0.6spc><frac|\<beta\>*\<theta\>|1-\<beta\>+\<beta\>*\<theta\><rsup|2>/2><space|0.6spc>=<frac|\<theta\>|\<theta\><rsup|2>/2-<around|(|1-1/\<beta\>|)>>\<approx\><space|0.6spc><frac|2|\<theta\>>
   </equation*>
 
   <\equation*>
-    <frac|2|\<theta\>>\<approx\>20<space|1em>\<Longrightarrow\><space|1em>\<theta\>\<approx\><space|0.6spc>0.1(rad)<space|0.6spc>\<approx\><space|0.6spc>6
-    (deg) .
+    <frac|2|\<theta\>>\<approx\>20<space|1em>\<Longrightarrow\><space|1em>\<theta\>\<approx\><space|0.6spc>0.1<around|(|rad|)><space|0.6spc>\<approx\><space|0.6spc>6
+    <around|(|deg|)> .
   </equation*>
 
   <subsubsection|\<#554F\>\<#984C\> 4.6>
@@ -156,7 +156,7 @@
   \<#9593\>\<#9694\><math|L>\<#3067\>\<#5E73\>\<#884C\>\<#306B\>\<#7F6E\>\<#304B\>\<#308C\>\<#305F\>\<#5411\>\<#304D\>\<#5408\>\<#3046\>\<#4E8C\>\<#679A\>\<#306E\>\<#93E1\>\<#93E1\>\<#3092\>\<#5149\>\<#304C\>\<#5F80\>\<#5FA9\>\<#3057\>\<#3066\>\<#3044\>\<#308B\>\<#3002\>\<#3042\>\<#308B\>\<#6163\>\<#6027\>\<#7CFB\><math|K>\<#306B\>\<#304A\>\<#3044\>\<#3066\>\<#3001\>\<#3053\>\<#306E\>\<#93E1\>\<#306E\>\<#7CFB\>\<#304C\>\<#93E1\>\<#9762\>\<#306B\>\<#5782\>\<#76F4\>\<#65B9\>\<#5411\>\<#306B\>\<#901F\>\<#5EA6\><math|V>\<#3067\>\<#79FB\>\<#52D5\>\<#3057\>\<#3066\>\<#3044\>\<#308B\>\<#3002\>
 
   <\with|par-mode|center>
-    <postscript|ex4-6.png|*1/4|*1/4||||>
+    <image|ex4-6.png|0.25w|0.25h||>
   </with>
 
   \<#93E1\>\<#306E\>\<#9759\>\<#6B62\>\<#7CFB\><math|K<rprime|'>>\<#3067\>\<#306F\>\<#4E00\>\<#5F80\>\<#5FA9\>\<#306B\>\<#304B\>\<#304B\>\<#308B\>\<#6642\>\<#9593\>\<#3092\>
@@ -171,8 +171,8 @@
   \<#3068\>\<#3059\>\<#308B\>\<#3068\>
 
   <\equation*>
-    L<rsub|\<ast\>>=<frac|1|\<gamma\>>L ,<space|1em>c*\<Delta\>t=c*L<rsub|\<ast\>><left|{>
-    <frac|1|c-V>+<frac|1|c+V><right|}>=<frac|2*L<rsub|\<ast\>>|1-\<beta\><rsup|2>>=2*\<gamma\>*L
+    L<rsub|\<ast\>>=<frac|1|\<gamma\>>L ,<space|1em>c*\<Delta\>t=c*L<rsub|\<ast\>><around*|{|
+    <frac|1|c-V>+<frac|1|c+V>|}>=<frac|2*L<rsub|\<ast\>>|1-\<beta\><rsup|2>>=2*\<gamma\>*L
     .
   </equation*>
 
@@ -183,9 +183,9 @@
     (\<geqslant\>\<Delta\>t<rprime|'> ) .
   </equation*>
 
-  \<#3053\>\<#306E\>\<#7D50\>\<#679C\>\<#306F\><math|K: (\<Delta\>x,
-  \<Delta\>t) \<longleftrightarrow\> K<rprime|'>: (0, \<Delta\>t<rprime|'>)>
-  \<#306E\>\<#9593\>\<#306E\>\<#30ED\>\<#30FC\>\<#30EC\>\<#30F3\>\<#30C4\>\<#5909\>\<#63DB\>\<#304B\>\<#3089\>\<#3082\>\<#7C21\>\<#5358\>\<#306B\>\<#5F97\>\<#3089\>\<#308C\>\<#308B\>\<#3002\>(\<#3053\>\<#306E\>\<#7D50\>\<#679C\>\<#306F\>\<#65E2\>\<#306B\>\<#5F97\>\<#3066\>\<#3044\>\<#308B\>\<#3002\>)
+  \<#3053\>\<#306E\>\<#7D50\>\<#679C\>\<#306F\><math|K: <around|(|\<Delta\>x,
+  \<Delta\>t|)> \<longleftrightarrow\> K<rprime|'>: <around|(|0,
+  \<Delta\>t<rprime|'>|)>> \<#306E\>\<#9593\>\<#306E\>\<#30ED\>\<#30FC\>\<#30EC\>\<#30F3\>\<#30C4\>\<#5909\>\<#63DB\>\<#304B\>\<#3089\>\<#3082\>\<#7C21\>\<#5358\>\<#306B\>\<#5F97\>\<#3089\>\<#308C\>\<#308B\>\<#3002\>(\<#3053\>\<#306E\>\<#7D50\>\<#679C\>\<#306F\>\<#65E2\>\<#306B\>\<#5F97\>\<#3066\>\<#3044\>\<#308B\>\<#3002\>)
 
   <subsubsection|\<#554F\>\<#984C\> 4.10>
 
@@ -198,14 +198,14 @@
   \<#7247\>\<#9053\>\<#3067\>\<#8003\>\<#3048\>\<#308B\>\<#3068\>
 
   <\equation*>
-    <tabular|<tformat|<table|<row|<cell|c*T<rprime|'>=<sqrt|(c*T)<rsup|2>-L<rsup|2>>=c*T<sqrt|1-\<beta\><rsup|2>>=<frac|c|\<gamma\>>*T,
-    <space|1em>L=T*V,>|<cell|>|<cell|>>|<row|<cell|T-T<rprime|'>=(
-    1-<frac|1|\<gamma\>> )*T=( 1-<frac|1|\<gamma\>>
-    )\<times\><frac|L|V>=<frac|1-<sqrt|1-\<beta\><rsup|2>>|\<beta\>>*(L/c)
+    <tabular|<tformat|<table|<row|<cell|c*T<rprime|'>=<sqrt|<around|(|c*T|)><rsup|2>-L<rsup|2>>=c*T<sqrt|1-\<beta\><rsup|2>>=<frac|c|\<gamma\>>*T,
+    <space|1em>L=T*V,>|<cell|>|<cell|>>|<row|<cell|T-T<rprime|'>=<around|(|
+    1-<frac|1|\<gamma\>> |)>*T=<around|(| 1-<frac|1|\<gamma\>>
+    |)>\<times\><frac|L|V>=<frac|1-<sqrt|1-\<beta\><rsup|2>>|\<beta\>>*<around|(|L/c|)>
     ,>|<cell|>|<cell|>>|<row|<cell|a=<frac|1-<sqrt|1-\<beta\><rsup|2>>|\<beta\>>
     =<frac|\<beta\>|1+<sqrt|1-\<beta\><rsup|2>>> <mbox|
     \<#3068\>\<#7F6E\>\<#304F\>\<#3002\><math|\<beta\>\<leqslant\>1>\<#3088\>\<#308A\><math|a\<less\>1>
-    \<#306B\>\<#6CE8\>\<#610F\>\<#3002\>>>|<cell|>|<cell|>>|<row|<cell|(1-a*\<beta\>)<rsup|2>=1-\<beta\><rsup|2><space|1em>\<Longrightarrow\><space|1em>\<beta\>=<frac|2*a|a<rsup|2>+1>>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|T-T<rprime|'>\<approx\>(117/2)
+    \<#306B\>\<#6CE8\>\<#610F\>\<#3002\>>>|<cell|>|<cell|>>|<row|<cell|<around|(|1-a*\<beta\>|)><rsup|2>=1-\<beta\><rsup|2><space|1em>\<Longrightarrow\><space|1em>\<beta\>=<frac|2*a|a<rsup|2>+1>>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|T-T<rprime|'>\<approx\><around|(|117/2|)>
     year ,<space|1em>L/c\<approx\>23 year
     <space|1em>\<Longrightarrow\><space|1em>a\<approx\><frac|117|46>\<gtr\>1>|<cell|>|<cell|>>>>>
   </equation*>
@@ -234,13 +234,13 @@
   <math|t<rsub|0>>\<#3068\>\<#3057\>\<#3088\>\<#3046\>(<math|\<rightarrow\>>\<#56F3\>1)\<#3002\>\<#4E00\>\<#65B9\>\<#3001\>\<#68D2\>\<#306E\>\<#9759\>\<#6B62\>\<#7CFB\>\<#304B\>\<#3089\>\<#898B\>\<#308C\>\<#3070\>\<#3001\>\<#89B3\>\<#6E2C\>\<#8005\>\<#306F\>\<#901F\>\<#5EA6\><math|-v>\<#3067\>\<#79FB\>\<#52D5\>\<#3057\>\<#3066\>\<#3044\>\<#304F\>\<#3002\>\<#89B3\>\<#6E2C\>\<#8005\>\<#306F\>\<#68D2\>\<#306E\>\<#9759\>\<#6B62\>\<#7CFB\>\<#306E\>\<#6642\>\<#8A08\>\<#3092\>\<#4F7F\>\<#3063\>\<#3066\>\<#68D2\>\<#306E\>\<#7AEF\>\<#304B\>\<#3089\>\<#7AEF\>\<#307E\>\<#3067\>\<#79FB\>\<#52D5\>\<#3057\>\<#305F\>\<#6642\>\<#9593\>\<#3092\>\<#8A08\>\<#308B\>(<math|\<rightarrow\>>\<#56F3\>2)\<#3002\>\<#3053\>\<#306E\>\<#6642\>\<#9593\>\<#3092\><math|t<rprime|'><rsub|0>>\<#3068\>\<#3059\>\<#308B\>\<#3002\>
 
   <\with|par-mode|center>
-    <tabular|<tformat|<cwith|1|1|1|1|cell-valign|t>|<cwith|1|1|3|3|cell-valign|t>|<table|<row|<cell|<small|(\<#56F3\>1)>>|<cell|<postscript|ex4-17_1.png|*1/5|*1/5||||>>|<cell|<small|(\<#56F3\>2)>>|<cell|<postscript|ex4-17_2.png|*1/5|*1/5||||>>>>>>
+    <tabular|<tformat|<cwith|1|1|1|1|cell-valign|t>|<cwith|1|1|3|3|cell-valign|t>|<table|<row|<cell|<small|(\<#56F3\>1)>>|<cell|<image|ex4-17_1.png|0.2w|0.2h||>>|<cell|<small|(\<#56F3\>2)>>|<cell|<image|ex4-17_2.png|0.2w|0.2h||>>>>>>
   </with>
 
   <math|t<rsub|0>>\<#3068\><math|t<rprime|'><rsub|0>>\<#306E\>\<#95A2\>\<#4FC2\>\<#306F\><math|\<beta\>=v/c>\<#3092\>\<#4F7F\>\<#3063\>\<#3066\>
 
   <\equation*>
-    c*t<rsub|0>=<sqrt|(c*t<rprime|'><rsub|0>*)<rsup|2>-(v*t<rprime|'><rsub|0>)<rsup|2>>=c*t<rprime|'><rsub|0><sqrt|1-\<beta\><rsup|2>>=c*t<rprime|'><rsub|0>/\<gamma\>
+    c*t<rsub|0>=<sqrt|<around|(|c*t<rprime|'><rsub|0>*|)><rsup|2>-<around|(|v*t<rprime|'><rsub|0>|)><rsup|2>>=c*t<rprime|'><rsub|0><sqrt|1-\<beta\><rsup|2>>=c*t<rprime|'><rsub|0>/\<gamma\>
     .
   </equation*>
 
@@ -258,6 +258,7 @@
   <\collection>
     <associate|font|modern>
     <associate|language|japanese>
+    <associate|magnification|0.95>
     <associate|preamble|false>
   </collection>
 </initial>
@@ -265,15 +266,16 @@
 <\references>
   <\collection>
     <associate|auto-1|<tuple|1|1>>
-    <associate|auto-10|<tuple|1.6|?>>
+    <associate|auto-10|<tuple|1.5|?>>
+    <associate|auto-11|<tuple|1.6|?>>
     <associate|auto-2|<tuple|2|1>>
     <associate|auto-3|<tuple|3|?>>
     <associate|auto-4|<tuple|1|?>>
-    <associate|auto-5|<tuple|1.1|?>>
-    <associate|auto-6|<tuple|1.2|?>>
-    <associate|auto-7|<tuple|1.3|?>>
-    <associate|auto-8|<tuple|1.4|?>>
-    <associate|auto-9|<tuple|1.5|?>>
+    <associate|auto-5|<tuple|1|?>>
+    <associate|auto-6|<tuple|1.1|?>>
+    <associate|auto-7|<tuple|1.2|?>>
+    <associate|auto-8|<tuple|1.3|?>>
+    <associate|auto-9|<tuple|1.4|?>>
   </collection>
 </references>
 
@@ -282,28 +284,32 @@
     <\associate|toc>
       <with|par-left|<quote|1.5fn>|\<#7B2C\> 4\<#7AE0\> \<#554F\>\<#984C\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-4>>
+      <no-break><pageref|auto-5>>
 
       <with|par-left|<quote|3fn>|\<#554F\>\<#984C\> 4.2
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-5>>
+      <no-break><pageref|auto-6>>
 
       <with|par-left|<quote|3fn>|\<#554F\>\<#984C\><space|0.2spc> 4.3
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-6>>
+      <no-break><pageref|auto-7>>
 
       <with|par-left|<quote|3fn>|\<#554F\>\<#984C\> 4.5
       <with|font-size|<quote|0.841>|(p. 69)>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-7>>
+      <no-break><pageref|auto-8>>
 
       <with|par-left|<quote|3fn>|\<#554F\>\<#984C\> 4.6
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-8>>
+      <no-break><pageref|auto-9>>
 
       <with|par-left|<quote|3fn>|\<#554F\>\<#984C\> 4.10
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-9>>
+      <no-break><pageref|auto-10>>
+
+      <with|par-left|<quote|3fn>|\<#554F\>\<#984C\> 17.
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-11>>
     </associate>
   </collection>
 </auxiliary>
